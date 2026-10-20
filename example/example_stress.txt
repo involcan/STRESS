@@ -1,0 +1,19 @@
+# BRTM stress inversion (D'Auria & Massa, 2015)
+input              : example.csv
+n_events           : 56
+lisle_constraint   : first
+grid_points / psi  : 4000 / 72
+
+# axis       trend   plunge
+sigma1        212.7    15.7
+sigma2          6.7    72.7
+sigma3        120.7     7.2
+
+phi_B              : 0.525
+mean_misfit_deg    : 43.7   (Wallace-Bott, best nodal plane)
+first_plane_chosen : 70%
+conf68_radius_s1 : 58.5 deg (equal-area cone)
+conf68_radius_s3 : 55.9 deg (equal-area cone)
+max_p_sigma1       : 0.1802
+max_p_sigma3       : 0.2127
+n_maxima_averaged  : 2
